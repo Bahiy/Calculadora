@@ -7,11 +7,11 @@ let resultado = document.querySelector('.resposta')
 let texto1 = document.querySelector('#numero1')
 let texto2 = document.querySelector('#numero2')
 
-soma.addEventListener('click' || TouchEvent, (adicao))
-subtracao.addEventListener('click', (subtrair))
-multiplicacao.addEventListener('click', (multiplicar))
-divisao.addEventListener('click', (dividir))
-potencia.addEventListener('click', (potenciacao))
+soma.addEventListener('click' || Touch, (adicao))
+subtracao.addEventListener('click' || Touch, (subtrair))
+multiplicacao.addEventListener('click' || Touch, (multiplicar))
+divisao.addEventListener('click' || Touch, (dividir))
+potencia.addEventListener('click'|| Touch, (potenciacao))
 
 function adicao() {
    let numero1 = Number(texto1.value)
