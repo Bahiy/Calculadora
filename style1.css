@@ -4,7 +4,11 @@ body {
 }
 
 .botao {
+<<<<<<< HEAD
     font-size:x-large;
+=======
+    font-size: x-large;
+>>>>>>> bcbe6a1d42a88ed8f01817942199d1d56799cdfe
     margin: 1vh;
     height: 5vh;
     width: 5vh;
