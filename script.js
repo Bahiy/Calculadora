@@ -13,6 +13,11 @@ multiplicacao.addEventListener('click' || Touch, (multiplicar))
 divisao.addEventListener('click' || Touch, (dividir))
 potencia.addEventListener('click'|| Touch, (potenciacao))
 
+function conta(numero1, numero2, final){
+   numero1 = Number(texto1.value)
+   numero2 = Number(texto2.value)
+   final = resultado.innerHTML
+}
 function adicao() {
    let numero1 = Number(texto1.value)
    let numero2 = Number(texto2.value)
@@ -22,8 +27,8 @@ function adicao() {
 function subtrair() {
    let numero1 = Number(texto1.value)
    let numero2 = Number(texto2.value)
-   let soma = numero1 - numero2;
-   resultado.innerHTML = soma;
+   let subtrair = numero1 - numero2;
+   resultado.innerHTML = subtrair;
 }
 function multiplicar() {
    let numero1 = Number(texto1.value)
